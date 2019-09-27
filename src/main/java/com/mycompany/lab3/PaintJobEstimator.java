@@ -44,7 +44,7 @@ public class PaintJobEstimator {
         System.out.println("Hours of labor required: " + hours);
         System.out.println("Cost of paint: " + paintPrice);
         System.out.println("Labor cost: $" + pay);
-        System.out.println(""
+        System.out.println("Total cost: $" + total);
         
     }
 }
