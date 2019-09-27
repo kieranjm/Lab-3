@@ -19,10 +19,11 @@ public class EvenOddCounter {
         int odds = 0;
         int evens = 0;
         boolean isEven = false;
-        int random = rand.nextInt(1000);
+        
         
         for (int i=1; i<=counter; i++)
         {
+            int random = rand.nextInt(1000);
             if (random%2==0)
             {
                 isEven = true;
